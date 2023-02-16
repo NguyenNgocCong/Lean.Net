@@ -15,7 +15,7 @@ namespace Shop.Model.Model
         public Guid ID { get; set; }
         [Required]
         public DateTime VisitedDate { get; set; }
-        [Required]
+        
         [MaxLength(50)]
         public string IPAdress { get; set; }
     }
